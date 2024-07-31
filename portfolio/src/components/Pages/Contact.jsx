@@ -1,20 +1,9 @@
 import { Container, Form, Button } from "react-bootstrap"
 import '../../styles/ContactForm.css'
-import { useState } from 'react';
+// import { useState } from 'react';
 
 const ContactForm = () => {
 
-        const [name, setName] = useState('');
-        const [email, setEmail] = useState('');
-        const [message, setMessage] = useState('');
-
-          if (valid) {
-            console.log(`Name: ${name}, Email: ${email}, Message: ${message}`);
-            setName("");
-            setEmail("");
-            setMessage("");
-            setMessageSent(true);
-          }
 
 return (
 
