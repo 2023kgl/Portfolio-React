@@ -1,12 +1,36 @@
+import avatar from "../../assets/images/PortfolioPic.png";
+import '../../styles/About.css'
+import { Image , Container, Row, Col } from "react-bootstrap"
+
 const AboutMe = () => {
     return(
-        <div>
-      <h1>About Page</h1>
-      <p>
-      Hello, my name is Karina. I am currently enrolled in a coding bootcamp. 
-      </p>
-    </div>
+
+      <Container>
+          <h1>About Me</h1>
+        <Row>
+          <Col
+            xs={12}
+            md={4}
+            className="d-flex justify-content-center align-items-center mb-4 mb-md-0"
+          >
+            <Image src={avatar} rounded fluid className="profilepic" />
+          </Col>
+
+          <Col xs={12} md={8}>
+             <p>
+              Welcome to my portfolio! My name is Karina Gonzalez. I am currently a student at University of Utah Full Stack Coding Bootcamp.
+              I have learn a lot in this course from the basics of HMTL and CSS to the more challenging parts of NoSQL and MERN. 
+              I look forward to be able to take my skills and continue to learn in the coding tech world. I love the challenges it brings and the feeling after resolving them.
+              It&apos;s been almost 6 months of learning and many more to come as I create more projects and enter the field. 
+            <br />
+            <br />
+              
+            </p>
+
+          </Col>
+          </Row>
+          </Container>
     )
 }
 
-export default AboutMe
+export default AboutMe;
