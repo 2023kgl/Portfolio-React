@@ -29,7 +29,7 @@ function App() {
     
   <div>
   <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-  <main className="mx-2">{renderPage()}</main>
+  <main>{renderPage()}</main>
 </div>
 
   )

@@ -1,24 +1,16 @@
-import Navbar from 'react-bootstrap/Navbar';
-import { Col, Row } from 'react-bootstrap';
+import Nav from 'react-bootstrap/Nav';
 
 function Navigation({ currentPage, handlePageChange }) {
   
   return (
 
-    <Navbar  bg="light" data-bs-theme="light">
+   <Nav bg="light" data-bs-theme="light" className='my-3'>
 
-    <Row className="mb-0">
-
-      <Col className="pb-0 text-left">
-        <h1 className="text-black" style={{ fontSize: "40px" }}>
+        <h1 className="text-black mx-5" style={{ fontSize: "40px" }}>
            Karina Gonzalez 
         </h1>
-      </Col>
 
-
-    <Col className="text-right">
-
-    <ul className="nav nav-tabs">
+    <ul className="mx-5 nav nav-tabs justify-content-end">
 
       <li className="nav-item">
         <a
@@ -61,11 +53,8 @@ function Navigation({ currentPage, handlePageChange }) {
       </li>
 
     </ul>
-    </Col>
 
-    </Row>
-
-    </Navbar>
+    </Nav>
 
   );
 }

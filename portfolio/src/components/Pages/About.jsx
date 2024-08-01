@@ -11,12 +11,12 @@ const AboutMe = () => {
 
         <Row>
 
-          <Col xs={12} md={4} className="d-flex justify-content-center align-items-center mb-4 mb-md-0" >
+          <Col className="d-flex justify-content-center align-items-center mb-4 mb-md-0" >
 
             <Image src={avatar} rounded fluid className="profilepic" />
           </Col>
 
-          <Col xs={12} md={8}>
+          <Col >
              <p>
               Welcome to my portfolio! My name is Karina Gonzalez. I am currently a student at University of Utah Full Stack Coding Bootcamp.
               I have learn a lot in this course from the basics of HMTL and CSS to the more challenging parts of NoSQL and MERN. 
