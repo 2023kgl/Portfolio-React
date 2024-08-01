@@ -1,0 +1,27 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #CBAD8D;
+    color: #F1EDE6;
+    text-align: center;
+
+  }
+
+  /* THESE ARE AFFECTING THE COLOR ON THE PROJECTS BUTTONS.... I DONT WANT THEM TO -- TODO - FIGURE OUT TO KEEP THE COLORS ON THE FOOTER ONLY */
+
+  /* a:link {
+    color: #EBE3D8;
+  }
+
+  a:visited {
+    color: #3A2D28;
+  } */

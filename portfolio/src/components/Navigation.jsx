@@ -4,10 +4,12 @@ function Navigation({ currentPage, handlePageChange }) {
   
   return (
 
-   <Nav bg="light" data-bs-theme="light" className='my-3'>
+   <Nav className='my-3'>
 
-        <h1 className="text-black mx-5" style={{ fontSize: "40px" }}>
-           Karina Gonzalez 
+        <h1 className="mx-5" style={{ fontSize: "40px" }}>
+           <a href='#about'
+           onClick={() => handlePageChange('About')}
+           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>Karina Gonzalez</a>
         </h1>
 
     <ul className="mx-5 nav nav-tabs justify-content-end">

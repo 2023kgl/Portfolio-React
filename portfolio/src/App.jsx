@@ -3,7 +3,8 @@ import About from './components/Pages/About'
 import Contact from './components/Pages/Contact'
 import ProjectsPage from './components/Pages/Projects'
 import Navigation from './components/Navigation';
-import Resume from './components/Pages/Resume';
+import Resume from './components/Pages/Resume'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -29,7 +30,8 @@ function App() {
     
   <div>
   <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-  <main>{renderPage()}</main>
+  <main className='main'>{renderPage()}</main>
+  <footer><Footer /></footer>
 </div>
 
   )

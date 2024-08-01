@@ -1,13 +1,11 @@
-import avatar from "../../assets/images/PortfolioPic.png";
+import avatar from "../../assets/images/picture.png";
 import '../../styles/About.css'
 import { Image , Container, Row, Col } from "react-bootstrap"
 
 const AboutMe = () => {
     return(
 
-      <Container>
-
-          <h1 className="m-4">About Me</h1>
+      <Container className="">
 
         <Row>
 
@@ -16,7 +14,7 @@ const AboutMe = () => {
             <Image src={avatar} rounded fluid className="profilepic" />
           </Col>
 
-          <Col >
+          <Col className="d-flex justify-content-center align-items-center mb-4 mb-md-0" >
              <p>
               Welcome to my portfolio! My name is Karina Gonzalez. I am currently a student at University of Utah Full Stack Coding Bootcamp.
               I have learn a lot in this course from the basics of HMTL and CSS to the more challenging parts of NoSQL and MERN. 
