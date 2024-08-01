@@ -6,13 +6,13 @@ import PlanPal from '../../assets/images/planpal.png'
 import OrmEcom from '../../assets/images/OrmEcom.png'
 import sqlemployeetracker from '../../assets/images/sqlemployeetracker.png'
 import weatherapp from '../../assets/images/weatherapp.png'
-
+import coding from '../../assets/images/coding.gif'
 
 const Portfolio = () => {
     return (
 
 <Container className='mt-5 align-items-center'>
-<Row>
+<Row xs={1} md={2}>
     <Card className='mb-5 mx-3' style={{ width: '18rem' }}>
         <Card.Img variant="top" src= {MoviesNMunchies} />
             <Card.Body>
@@ -82,6 +82,18 @@ const Portfolio = () => {
                 </Card.Text>
                 <Button href='https://github.com/2023kgl/5DayWeatherForecast' className='mx-2 my-2' variant="primary">GitHub Repo</Button>
                 <Button href='https://2023kgl.github.io/5DayWeatherForecast/' className='mx-2 my-2' variant="primary">Deployed Link</Button>
+            </Card.Body>
+    </Card>
+
+    <Card className='mb-5 mx-3' style={{ width: '18rem' }}>
+        <Card.Img variant="top" src={coding}/>
+            <Card.Body>
+                <Card.Title></Card.Title>
+                <Card.Text>
+                More to come! 😊
+                </Card.Text>
+                {/* <Button href='' className='mx-2 my-2' variant="primary">GitHub Repo</Button>
+                <Button href='' className='mx-2 my-2' variant="primary">Deployed Link</Button> */}
             </Card.Body>
     </Card>
 

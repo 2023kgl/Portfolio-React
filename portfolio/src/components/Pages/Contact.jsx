@@ -23,7 +23,7 @@ return (
             
             <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                 <Form.Label>Message</Form.Label>
-                <Form.Control id="message" as="textarea" rows={3} />
+                <Form.Control placeholder="Message" id="message" as="textarea" rows={3} />
             </Form.Group>
 
             <Button as="input" type="submit" value="Submit" />{' '}
