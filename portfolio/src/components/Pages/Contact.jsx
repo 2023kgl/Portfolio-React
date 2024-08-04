@@ -12,17 +12,17 @@ return (
 
             <Form.Group  className="mb-3" controlId="exampleForm.ControlInput1">
                 <Form.Label>Name</Form.Label>
-                <Form.Control id='name' type="text" placeholder="First and Last Name" />
+                <Form.Control type="text" placeholder="First and Last Name" />
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                 <Form.Label>Email address</Form.Label>
-                <Form.Control id="email" type="email" placeholder="name@example.com" />
+                <Form.Control type="email" placeholder="name@example.com" />
             </Form.Group>
             
             <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                 <Form.Label>Message</Form.Label>
-                <Form.Control placeholder="Message" id="message" as="textarea" rows={3} />
+                <Form.Control placeholder="Message" as="textarea" rows={3} />
             </Form.Group>
 
             <Button as="input" type="submit" value="Submit" />{' '}
