@@ -1,7 +1,7 @@
 import resume from '../../assets/images/ResumeScreenshot.png'
 import { Container, Image , Col, Row } from "react-bootstrap"
 import Button from 'react-bootstrap/Button';
-import PDF from '../../assets/documents/KarinaGonzalezResume.pdf'
+import PDF from '../../assets/documents/ResumeKG-WebDev.pdf'
 
 const Resume = () => {
     return (
